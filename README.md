@@ -9,7 +9,7 @@ run
 source venv/bin/activate
 
 then run
-export DISPLAY=:0
+export DISPLAY=:0 (or save it in your .zshrc .bashrc file whatever you are using, otherwise you need to run this command every time)
 "The export DISPLAY=:0 command sets up communication between your Linux programs (running in WSL) and the Windows display system through VcXsrv."
 
 then run
